@@ -17,22 +17,26 @@ nav {
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: antiquewhite;
-    width: 40%;
+    width: 50%;
     align-items: center;
     height: 100%;
+
 }
 a {
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: hsl(74, 38%, 43%);
+    color: #849744;
 }
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 300;
+    font-weight: 600;
     color: antiquewhite;
-    font-size: 20px;
-    padding-left: 5px;
+    font-size: 16px;
+    padding-left: 10px;
+    transition-duration: 500ms;
+    text-align: center;
 }
+
 @media (max-width: 700px) {
      h1 {
          display: none;
@@ -48,9 +52,79 @@ h1 {
 
 }
 h1:hover {
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
 }
 a:hover {
     color: rgb(196, 146, 113);
+    cursor: pointer;
+}
+
+img:hover {
+    width: 425px;
+    cursor: pointer;
+}
+
+main p:hover {
+    cursor: pointer;
+}
+
+div input:hover {
+    width: 706px;
+    height: 353px;
+    cursor: pointer;
+}
+
+div label:hover {
+    cursor: pointer;
+    font-size: 16.5px;
+}
+
+body {
+    background-color: snow;
+}
+img {
+    width: 400px;
+    padding-top: 100px;
+    transition-duration: 1s;
+}
+main p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    width: 500px;
+    transition: color 1s;
+    padding-top: 10px;
+    font-weight: 600;
+    color: #849744;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-mae {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+#caixa1 {
+    width: 700px;
+    height: 350px;
+    border-radius: 10px;
+    transition-duration: 500ms;
+    border: none;
+}
+
+div label {
+    padding-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    transition: 500ms;
 }
