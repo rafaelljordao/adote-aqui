@@ -128,3 +128,7 @@ div label {
     font-size: 16px;
     transition: 500ms;
 }
+
+textarea {
+    border: none;
+}
