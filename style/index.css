@@ -132,3 +132,12 @@ div label {
 textarea {
     border: none;
 }
+
+footer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 400px;
+    padding-bottom: 10px;
+}
